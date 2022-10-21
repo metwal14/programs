@@ -1,6 +1,7 @@
 #include<iostream>
 using namespace std;
 
+// createdOne
 void reverseArray(int arr[],int size){
     for(int i = 0 ;i<(size-1)/2;i++){
         int temp;
@@ -9,6 +10,7 @@ void reverseArray(int arr[],int size){
         arr[size-1-i] = temp;
     }
 }
+// optimized one
 void reverse(int arr[],int size){
     int start=0;
     int end = size-1;
