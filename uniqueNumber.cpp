@@ -4,7 +4,7 @@ using namespace std;
 //m=4;
 //m*2+1
 
-//using XOR 3^3=0; 3^0=0; number^number = 0 ; number^0=0;
+//using XOR 3^3=0; 3^0=3; number^number = 0 ; number^0=number;
 int findUnique(int arr[],int n){
     int uniqueNumber = 0;
 
